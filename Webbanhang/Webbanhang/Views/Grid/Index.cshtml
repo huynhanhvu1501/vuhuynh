@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+
+<section class="section-content padding-y">
+    <div class="container">
+        <nav class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-md-3">
+
+                <div class="card card-category">
+                    <div class="img-wrap" style="background: #ffd7d7">
+                        <a href="@Url.Action("Detail", "Product", new {Id = item.Id })" class="img-wrap">
+                            <img src="~/Content/images/items/imagesSQL/@item.Avatar">
+                            </a>    
+</div>
+                    <div class="card-body">
+                        <h4 class="card-title"><a href="#">@item.Name</a></h4>
+                    </div>
+                </div>
+            </div> <!-- col.// -->
+        }
+           
+
+        </nav> <!-- row.// -->
+
+    </div> <!-- container .//  -->
+</section>
+

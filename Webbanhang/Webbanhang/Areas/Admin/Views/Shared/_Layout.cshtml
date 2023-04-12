@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>AdminLTE 3 | Dashboard</title>
+    <title>VuhuynhAdmin| Bảng điều khiển</title>
 
     <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -27,28 +27,28 @@
     <link rel="stylesheet" href="~/Content/admin/plugins/summernote/summernote-bs4.min.css">
 
 
-    
+
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
     <div class="wrapper">
 
         <!-- Preloader -->
         <div class="preloader flex-column justify-content-center align-items-center">
-            <img class="animation__shake" src="~/Content/admin/dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60">
+            <img class="animation__shake" src="~/Content/admin/dist/img/avatar.png" alt="AdminLTELogo" height="60" width="60">
         </div>
 
         <!-- Navbar -->
-        <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+        <nav class="main-header navbar navbar-expand navbar-info navbar-light">
             <!-- Left navbar links -->
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
                 </li>
                 <li class="nav-item d-none d-sm-inline-block">
-                    <a href="index3.html" class="nav-link">Home</a>
+                    <a href="@Url.Action("index", "Products")" class="nav-link">Trang quản trị</a>
                 </li>
                 <li class="nav-item d-none d-sm-inline-block">
-                    <a href="#" class="nav-link">Contact</a>
+                    <a href="#" class="nav-link">Trang người dùng</a>
                 </li>
             </ul>
 
@@ -86,14 +86,14 @@
                         <a href="#" class="dropdown-item">
                             <!-- Message Start -->
                             <div class="media">
-                                <img src="~/Content/admin/dist/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
+                                <img src="~/Content/admin/dist/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
                                 <div class="media-body">
                                     <h3 class="dropdown-item-title">
                                         Brad Diesel
                                         <span class="float-right text-sm text-danger"><i class="fas fa-star"></i></span>
                                     </h3>
                                     <p class="text-sm">Call me whenever you can...</p>
-                                    <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+                                    <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 tiếng trước</p>
                                 </div>
                             </div>
                             <!-- Message End -->
@@ -105,11 +105,11 @@
                                 <img src="~/Content/admin/dist/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
                                 <div class="media-body">
                                     <h3 class="dropdown-item-title">
-                                        John Pierce
+                                        Giá
                                         <span class="float-right text-sm text-muted"><i class="fas fa-star"></i></span>
                                     </h3>
-                                    <p class="text-sm">I got your message bro</p>
-                                    <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+                                    <p class="text-sm">Đã nhận tin nhắn</p>
+                                    <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 tiếng trước</p>
                                 </div>
                             </div>
                             <!-- Message End -->
@@ -125,13 +125,13 @@
                                         <span class="float-right text-sm text-warning"><i class="fas fa-star"></i></span>
                                     </h3>
                                     <p class="text-sm">The subject goes here</p>
-                                    <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+                                    <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 tiếng trước</p>
                                 </div>
                             </div>
                             <!-- Message End -->
                         </a>
                         <div class="dropdown-divider"></div>
-                        <a href="#" class="dropdown-item dropdown-footer">See All Messages</a>
+                        <a href="#" class="dropdown-item dropdown-footer">Tất cả tin nhắn</a>
                     </div>
                 </li>
                 <!-- Notifications Dropdown Menu -->
@@ -141,24 +141,24 @@
                         <span class="badge badge-warning navbar-badge">15</span>
                     </a>
                     <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
-                        <span class="dropdown-item dropdown-header">15 Notifications</span>
+                        <span class="dropdown-item dropdown-header">15 Thông báo</span>
                         <div class="dropdown-divider"></div>
                         <a href="#" class="dropdown-item">
-                            <i class="fas fa-envelope mr-2"></i> 4 new messages
+                            <i class="fas fa-envelope mr-2"></i> 4 tin nhắn mới
                             <span class="float-right text-muted text-sm">3 mins</span>
                         </a>
                         <div class="dropdown-divider"></div>
                         <a href="#" class="dropdown-item">
-                            <i class="fas fa-users mr-2"></i> 8 friend requests
+                            <i class="fas fa-users mr-2"></i> 8 lời mời kết bạn
                             <span class="float-right text-muted text-sm">12 hours</span>
                         </a>
                         <div class="dropdown-divider"></div>
                         <a href="#" class="dropdown-item">
-                            <i class="fas fa-file mr-2"></i> 3 new reports
-                            <span class="float-right text-muted text-sm">2 days</span>
+                            <i class="fas fa-file mr-2"></i> 3 báo cáo ới
+                            <span class="float-right text-muted text-sm">2 ngày</span>
                         </a>
                         <div class="dropdown-divider"></div>
-                        <a href="#" class="dropdown-item dropdown-footer">See All Notifications</a>
+                        <a href="#" class="dropdown-item dropdown-footer">Xem tất cả thông báo</a>
                     </div>
                 </li>
                 <li class="nav-item">
@@ -175,11 +175,11 @@
         </nav>
         <!-- /.navbar -->
         <!-- Main Sidebar Container -->
-        <aside class="main-sidebar sidebar-dark-primary elevation-4">
+        <aside class="main-sidebar sidebar-dark-warning elevation-4">
             <!-- Brand Logo -->
-            <a href="index3.html" class="brand-link">
-                <img src="~/Content/admin/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-                <span class="brand-text font-weight-light">AdminLTE 3</span>
+            <a href="" class="brand-link">
+                <img src="~/Content/images/items/itemcb.jpg" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+                <span class="brand-text font-weight-light">Trang chủ admin</span>
             </a>
 
             <!-- Sidebar -->
@@ -187,17 +187,17 @@
                 <!-- Sidebar user panel (optional) -->
                 <div class="user-panel mt-3 pb-3 mb-3 d-flex">
                     <div class="image">
-                        <img src="~/Content/admin/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+                        <img src="~/Content/admin/dist/img/avatar5.png" class="img-circle elevation-2" alt="User Image">
                     </div>
                     <div class="info">
-                        <a href="#" class="d-block">Alexander Pierce</a>
+                        <a href="@Url.Action("index", "Products")" class="d-block">Vũ Huỳnh</a>
                     </div>
                 </div>
 
                 <!-- SidebarSearch Form -->
                 <div class="form-inline">
                     <div class="input-group" data-widget="sidebar-search">
-                        <input class="form-control form-control-sidebar" type="search" placeholder="Search" aria-label="Search">
+                        <input class="form-control form-control-sidebar" type="search" placeholder="Tìm kiếm" aria-label="Search">
                         <div class="input-group-append">
                             <button class="btn btn-sidebar">
                                 <i class="fas fa-search fa-fw"></i>
@@ -210,12 +210,12 @@
                 <nav class="mt-2">
                     <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                         <!-- Add icons to the links using the .nav-icon class
-                             with font-awesome or any other icon font library -->
+                     with font-awesome or any other icon font library -->
                         <li class="nav-item menu-open">
                             <a href="#" class="nav-link active">
                                 <i class="nav-icon fas fa-tachometer-alt"></i>
                                 <p>
-                                    Dashboard
+                                    Bảng điều khiển
                                     <i class="right fas fa-angle-left"></i>
                                 </p>
                             </a>
@@ -223,19 +223,19 @@
                                 <li class="nav-item">
                                     <a href="./index.html" class="nav-link active">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Dashboard v1</p>
+                                        <p>Bảng điều khiển V1</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="./index2.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Dashboard v2</p>
+                                        <p>Bảng điều khiển V2</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="./index3.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Dashboard v3</p>
+                                        <p>Bảng điều khiển V3</p>
                                     </a>
                                 </li>
                             </ul>
@@ -244,8 +244,8 @@
                             <a href="pages/widgets.html" class="nav-link">
                                 <i class="nav-icon fas fa-th"></i>
                                 <p>
-                                    Widgets
-                                    <span class="right badge badge-danger">New</span>
+                                    Tiện ích
+                                    <span class="right badge badge-danger">Mới</span>
                                 </p>
                             </a>
                         </li>
@@ -262,49 +262,49 @@
                                 <li class="nav-item">
                                     <a href="pages/layout/top-nav.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Top Navigation</p>
+                                        <p>Điều hướng trên cùng </p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="pages/layout/top-nav-sidebar.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Top Navigation + Sidebar</p>
+                                        <p>Điều hướng trên cùng + Thanh bên</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="pages/layout/boxed.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Boxed</p>
+                                        <p>Dóng hộp</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="pages/layout/fixed-sidebar.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Fixed Sidebar</p>
+                                        <p>Thanh bên cố định</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="pages/layout/fixed-sidebar-custom.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Fixed Sidebar <small>+ Custom Area</small></p>
+                                        <p>Thanh bên cố định <small>+ Khu vực tùy chỉnh</small></p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="pages/layout/fixed-topnav.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Fixed Navbar</p>
+                                        <p>Khu vực tùy chỉnh</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="pages/layout/fixed-footer.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Fixed Footer</p>
+                                        <p>Trang cố định</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="pages/layout/collapsed-sidebar.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Collapsed Sidebar</p>
+                                        <p>Thanh bên được thu gọn</p>
                                     </a>
                                 </li>
                             </ul>
@@ -321,19 +321,19 @@
                                 <li class="nav-item">
                                     <a href="pages/charts/chartjs.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>ChartJS</p>
+                                        <p>Biểu đồ</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="pages/charts/flot.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Flot</p>
+                                        <p>Nổi</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="pages/charts/inline.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Inline</p>
+                                        <p>Nội tuyến</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
@@ -356,25 +356,25 @@
                                 <li class="nav-item">
                                     <a href="pages/UI/general.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>General</p>
+                                        <p>Tổng quan</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="pages/UI/icons.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Icons</p>
+                                        <p>Biểu tượng</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="pages/UI/buttons.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Buttons</p>
+                                        <p>Nút</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="pages/UI/sliders.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Sliders</p>
+                                        <p>Thanh trượt</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
@@ -386,19 +386,19 @@
                                 <li class="nav-item">
                                     <a href="pages/UI/navbar.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Navbar & Tabs</p>
+                                        <p>Thanh điêu hướng và tab</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="pages/UI/timeline.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Timeline</p>
+                                        <p>Mốc thời gian</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="pages/UI/ribbons.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Ribbons</p>
+                                        <p>Ruy băng</p>
                                     </a>
                                 </li>
                             </ul>
@@ -407,7 +407,7 @@
                             <a href="#" class="nav-link">
                                 <i class="nav-icon fas fa-edit"></i>
                                 <p>
-                                    Forms
+                                    Các hình thức
                                     <i class="fas fa-angle-left right"></i>
                                 </p>
                             </a>
@@ -415,25 +415,25 @@
                                 <li class="nav-item">
                                     <a href="pages/forms/general.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>General Elements</p>
+                                        <p>Yếu tố chung</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="pages/forms/advanced.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Advanced Elements</p>
+                                        <p>Yếu tố nâng cao</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="pages/forms/editors.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Editors</p>
+                                        <p>Biên tập viên</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="pages/forms/validation.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Validation</p>
+                                        <p>Thẩm định</p>
                                     </a>
                                 </li>
                             </ul>
@@ -442,7 +442,7 @@
                             <a href="#" class="nav-link">
                                 <i class="nav-icon fas fa-table"></i>
                                 <p>
-                                    Tables
+                                    Bảng
                                     <i class="fas fa-angle-left right"></i>
                                 </p>
                             </a>
@@ -450,13 +450,13 @@
                                 <li class="nav-item">
                                     <a href="pages/tables/simple.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Simple Tables</p>
+                                        <p>Bảng đơn giản</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="pages/tables/data.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>DataTables</p>
+                                        <p>Bảng dữ liệu</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
@@ -467,12 +467,12 @@
                                 </li>
                             </ul>
                         </li>
-                        <li class="nav-header">EXAMPLES</li>
+                        <li class="nav-header">Ví dụ</li>
                         <li class="nav-item">
                             <a href="pages/calendar.html" class="nav-link">
                                 <i class="nav-icon far fa-calendar-alt"></i>
                                 <p>
-                                    Calendar
+                                    Lịch
                                     <span class="badge badge-info right">2</span>
                                 </p>
                             </a>
@@ -481,7 +481,7 @@
                             <a href="pages/gallery.html" class="nav-link">
                                 <i class="nav-icon far fa-image"></i>
                                 <p>
-                                    Gallery
+                                    Phòng trưng bày
                                 </p>
                             </a>
                         </li>
@@ -489,7 +489,7 @@
                             <a href="pages/kanban.html" class="nav-link">
                                 <i class="nav-icon fas fa-columns"></i>
                                 <p>
-                                    Kanban Board
+                                    Bảng Kanban
                                 </p>
                             </a>
                         </li>
@@ -497,7 +497,7 @@
                             <a href="#" class="nav-link">
                                 <i class="nav-icon far fa-envelope"></i>
                                 <p>
-                                    Mailbox
+                                    Hộp thư
                                     <i class="fas fa-angle-left right"></i>
                                 </p>
                             </a>
@@ -505,19 +505,19 @@
                                 <li class="nav-item">
                                     <a href="pages/mailbox/mailbox.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Inbox</p>
+                                        <p>Hộp thư đến</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="pages/mailbox/compose.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Compose</p>
+                                        <p>Biên soạn</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="pages/mailbox/read-mail.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Read</p>
+                                        <p>Đọc</p>
                                     </a>
                                 </li>
                             </ul>
@@ -526,7 +526,7 @@
                             <a href="#" class="nav-link">
                                 <i class="nav-icon fas fa-book"></i>
                                 <p>
-                                    Pages
+                                    Trang
                                     <i class="fas fa-angle-left right"></i>
                                 </p>
                             </a>
@@ -534,49 +534,49 @@
                                 <li class="nav-item">
                                     <a href="pages/examples/invoice.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Invoice</p>
+                                        <p>Hóa đơn</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="pages/examples/profile.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Profile</p>
+                                        <p>Thông tin cá nhân</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="pages/examples/e-commerce.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>E-commerce</p>
+                                        <p>Thương mại điện tử</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="pages/examples/projects.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Projects</p>
+                                        <p>Dự án</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="pages/examples/project-add.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Project Add</p>
+                                        <p>Thêm dự án</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="pages/examples/project-edit.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Project Edit</p>
+                                        <p>Chỉnh sửa dự án</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="pages/examples/project-detail.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Project Detail</p>
+                                        <p>Chi tiết dự án</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="pages/examples/contacts.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Contacts</p>
+                                        <p>Liên hệ</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
@@ -588,7 +588,7 @@
                                 <li class="nav-item">
                                     <a href="pages/examples/contact-us.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Contact us</p>
+                                        <p>Liên hệ chúng tôi</p>
                                     </a>
                                 </li>
                             </ul>
@@ -597,7 +597,7 @@
                             <a href="#" class="nav-link">
                                 <i class="nav-icon far fa-plus-square"></i>
                                 <p>
-                                    Extras
+                                    Tiện ích bổ sung
                                     <i class="fas fa-angle-left right"></i>
                                 </p>
                             </a>
@@ -606,7 +606,7 @@
                                     <a href="#" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>
-                                            Login & Register v1
+                                            Đăng nhập & Đăng kí
                                             <i class="fas fa-angle-left right"></i>
                                         </p>
                                     </a>
@@ -614,25 +614,25 @@
                                         <li class="nav-item">
                                             <a href="pages/examples/login.html" class="nav-link">
                                                 <i class="far fa-circle nav-icon"></i>
-                                                <p>Login v1</p>
+                                                <p>Đăng nhập</p>
                                             </a>
                                         </li>
                                         <li class="nav-item">
                                             <a href="pages/examples/register.html" class="nav-link">
                                                 <i class="far fa-circle nav-icon"></i>
-                                                <p>Register v1</p>
+                                                <p>Đăng ký</p>
                                             </a>
                                         </li>
                                         <li class="nav-item">
                                             <a href="pages/examples/forgot-password.html" class="nav-link">
                                                 <i class="far fa-circle nav-icon"></i>
-                                                <p>Forgot Password v1</p>
+                                                <p>Quên mật khẩu</p>
                                             </a>
                                         </li>
                                         <li class="nav-item">
                                             <a href="pages/examples/recover-password.html" class="nav-link">
                                                 <i class="far fa-circle nav-icon"></i>
-                                                <p>Recover Password v1</p>
+                                                <p>Khôi phục mật khẩu</p>
                                             </a>
                                         </li>
                                     </ul>
@@ -641,7 +641,7 @@
                                     <a href="#" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>
-                                            Login & Register v2
+                                            Đăng nhập & Đăng kí
                                             <i class="fas fa-angle-left right"></i>
                                         </p>
                                     </a>
@@ -649,25 +649,25 @@
                                         <li class="nav-item">
                                             <a href="pages/examples/login-v2.html" class="nav-link">
                                                 <i class="far fa-circle nav-icon"></i>
-                                                <p>Login v2</p>
+                                                <p>Đăng nhập</p>
                                             </a>
                                         </li>
                                         <li class="nav-item">
                                             <a href="pages/examples/register-v2.html" class="nav-link">
                                                 <i class="far fa-circle nav-icon"></i>
-                                                <p>Register v2</p>
+                                                <p>Đăng kí</p>
                                             </a>
                                         </li>
                                         <li class="nav-item">
                                             <a href="pages/examples/forgot-password-v2.html" class="nav-link">
                                                 <i class="far fa-circle nav-icon"></i>
-                                                <p>Forgot Password v2</p>
+                                                <p> Quên mật khẩu</p>
                                             </a>
                                         </li>
                                         <li class="nav-item">
                                             <a href="pages/examples/recover-password-v2.html" class="nav-link">
                                                 <i class="far fa-circle nav-icon"></i>
-                                                <p>Recover Password v2</p>
+                                                <p>Khôi phục mật khẩu</p>
                                             </a>
                                         </li>
                                     </ul>
@@ -675,49 +675,49 @@
                                 <li class="nav-item">
                                     <a href="pages/examples/lockscreen.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Lockscreen</p>
+                                        <p> Màn hình khóa</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="pages/examples/legacy-user-menu.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Legacy User Menu</p>
+                                        <p>Menu người dùng kế thừa</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="pages/examples/language-menu.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Language Menu</p>
+                                        <p>Ngôn ngữ</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="pages/examples/404.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Error 404</p>
+                                        <p>Lỗi 404</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="pages/examples/500.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Error 500</p>
+                                        <p>Lỗi 500</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="pages/examples/pace.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Pace</p>
+                                        <p>Nhịp độ</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="pages/examples/blank.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Blank Page</p>
+                                        <p>Trang trống</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="starter.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Starter Page</p>
+                                        <p>Trang bắt đầu</p>
                                     </a>
                                 </li>
                             </ul>
@@ -726,7 +726,7 @@
                             <a href="#" class="nav-link">
                                 <i class="nav-icon fas fa-search"></i>
                                 <p>
-                                    Search
+                                    Tìm kiếm
                                     <i class="fas fa-angle-left right"></i>
                                 </p>
                             </a>
@@ -734,42 +734,42 @@
                                 <li class="nav-item">
                                     <a href="pages/search/simple.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Simple Search</p>
+                                        <p>Tìm kiếm đơn giản </p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="pages/search/enhanced.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Enhanced</p>
+                                        <p>Nâng cao</p>
                                     </a>
                                 </li>
                             </ul>
                         </li>
-                        <li class="nav-header">MISCELLANEOUS</li>
+                        <li class="nav-header">Điều khoản khác</li>
                         <li class="nav-item">
                             <a href="iframe.html" class="nav-link">
                                 <i class="nav-icon fas fa-ellipsis-h"></i>
-                                <p>Tabbed IFrame Plugin</p>
+                                <p>Được gắn thẻ</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="https://adminlte.io/docs/3.1/" class="nav-link">
                                 <i class="nav-icon fas fa-file"></i>
-                                <p>Documentation</p>
+                                <p>Tài liệu</p>
                             </a>
                         </li>
-                        <li class="nav-header">MULTI LEVEL EXAMPLE</li>
+                        <li class="nav-header">Các ví dụ</li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">
                                 <i class="fas fa-circle nav-icon"></i>
-                                <p>Level 1</p>
+                                <p>Cấp 1</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">
                                 <i class="nav-icon fas fa-circle"></i>
                                 <p>
-                                    Level 1
+                                    Cấp 2
                                     <i class="right fas fa-angle-left"></i>
                                 </p>
                             </a>
@@ -777,14 +777,14 @@
                                 <li class="nav-item">
                                     <a href="#" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Level 2</p>
+                                        <p>Cấp 2</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="#" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>
-                                            Level 2
+                                            Cấp 2
                                             <i class="right fas fa-angle-left"></i>
                                         </p>
                                     </a>
@@ -792,19 +792,19 @@
                                         <li class="nav-item">
                                             <a href="#" class="nav-link">
                                                 <i class="far fa-dot-circle nav-icon"></i>
-                                                <p>Level 3</p>
+                                                <p>Cấp 3</p>
                                             </a>
                                         </li>
                                         <li class="nav-item">
                                             <a href="#" class="nav-link">
                                                 <i class="far fa-dot-circle nav-icon"></i>
-                                                <p>Level 3</p>
+                                                <p>Cấp 3</p>
                                             </a>
                                         </li>
                                         <li class="nav-item">
                                             <a href="#" class="nav-link">
                                                 <i class="far fa-dot-circle nav-icon"></i>
-                                                <p>Level 3</p>
+                                                <p>Cấp 3</p>
                                             </a>
                                         </li>
                                     </ul>
@@ -812,7 +812,7 @@
                                 <li class="nav-item">
                                     <a href="#" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Level 2</p>
+                                        <p>Cấp 2</p>
                                     </a>
                                 </li>
                             </ul>
@@ -820,26 +820,26 @@
                         <li class="nav-item">
                             <a href="#" class="nav-link">
                                 <i class="fas fa-circle nav-icon"></i>
-                                <p>Level 1</p>
+                                <p>Cấp 3</p>
                             </a>
                         </li>
-                        <li class="nav-header">LABELS</li>
+                        <li class="nav-header">Nhãn</li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">
                                 <i class="nav-icon far fa-circle text-danger"></i>
-                                <p class="text">Important</p>
+                                <p class="text">Quan trọng</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">
                                 <i class="nav-icon far fa-circle text-warning"></i>
-                                <p>Warning</p>
+                                <p>Cảnh báo</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">
                                 <i class="nav-icon far fa-circle text-info"></i>
-                                <p>Informational</p>
+                                <p>Thông tin</p>
                             </a>
                         </li>
                     </ul>
@@ -850,21 +850,22 @@
         </aside>
 
         <!-- Content Wrapper. Contains page content -->
-
-       @RenderBody()
+        <div class="content-wrapper"/>
+             @RenderBody()
+        </div>
         <!-- /.content-wrapper -->
         <footer class="main-footer">
-            <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong>
-            All rights reserved.
+            <strong>Copyright &copy; 2023 <a href="https://adminlte.io">Vuhuynh.io</a>.</strong>
+            Đã đăng ký bản quyền
             <div class="float-right d-none d-sm-inline-block">
-                <b>Version</b> 3.1.0
+                <b>Phiên bản</b> 3.1.0
             </div>
         </footer>
 
         <!-- Control Sidebar -->
-        <aside class="control-sidebar control-sidebar-dark">
-            <!-- Control sidebar content goes here -->
-        </aside>
+    <aside class="control-sidebar control-sidebar-warning">
+        <!-- Control sidebar content goes here -->
+    </aside>
         <!-- /.control-sidebar -->
     </div>
     <!-- ./wrapper -->
@@ -874,7 +875,7 @@
     <script src="~/Content/admin/plugins/jquery-ui/jquery-ui.min.js"></script>
     <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
     <script>
-  $.widget.bridge('uibutton', $.ui.button)
+        $.widget.bridge('uibutton', $.ui.button)
     </script>
     <!-- Bootstrap 4 -->
     <script src="~/Content/admin/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -902,7 +903,7 @@
     <script src="~/Content/admin/dist/js/demo.js"></script>
     <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
     <script src="~/Content/admin/dist/js/pages/dashboard.js"></script>
-    
+
     <
 </body>
 </html>

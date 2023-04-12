@@ -1,17 +1,35 @@
 ﻿@{
-    ViewBag.Title = "Contact";
+    ViewBag.Title = "Gửi liên hệ";
 }
 <h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
 
+<h5>
+    Xin chào,
+
+    Tôi rất vui khi nhận được liên hệ từ bạn</br>
+    </br>
+    Hãy cho tôi biết thêm thông tin về câu hỏi hoặc yêu cầu của bạn để tôi có thể trả lời và hỗ trợ bạn tốt hơn</br>
+    </br>
+
+    Nếu bạn có bất kỳ câu hỏi hoặc cần hỗ trợ nào khác, đừng ngần ngại liên hệ với tôi. Tôi sẵn sàng giúp đỡ bạn</br>
+    </br>
+
+    Trân trọng.
+</h5>
 <address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
+    <form action="contact.php" method="post">
+        <label for="name">Họ và tên:</label> 
+        <input type="text" id="name" name="name" required>
+        </br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        </br>
+        <label for="message">Nội dung:</label>
+        <textarea id="message" name="message" required></textarea>
+        </br>
+        <button type="submit">Gửi</button>
+        </br>
+    </form>
+
 </address>
 
-<address>
-    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-</address>

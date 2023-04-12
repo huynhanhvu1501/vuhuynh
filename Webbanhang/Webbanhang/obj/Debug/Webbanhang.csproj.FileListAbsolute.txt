@@ -1,52 +1,94 @@
-D:\ASP\Webbanhang\Webbanhang\bin\Webbanhang.dll.config
-D:\ASP\Webbanhang\Webbanhang\bin\Webbanhang.dll
-D:\ASP\Webbanhang\Webbanhang\bin\Webbanhang.pdb
-D:\ASP\Webbanhang\Webbanhang\bin\Antlr3.Runtime.dll
-D:\ASP\Webbanhang\Webbanhang\bin\Microsoft.Web.Infrastructure.dll
-D:\ASP\Webbanhang\Webbanhang\bin\Newtonsoft.Json.dll
-D:\ASP\Webbanhang\Webbanhang\bin\System.Web.Helpers.dll
-D:\ASP\Webbanhang\Webbanhang\bin\System.Web.Mvc.dll
-D:\ASP\Webbanhang\Webbanhang\bin\System.Web.Optimization.dll
-D:\ASP\Webbanhang\Webbanhang\bin\System.Web.Razor.dll
-D:\ASP\Webbanhang\Webbanhang\bin\System.Web.WebPages.Deployment.dll
-D:\ASP\Webbanhang\Webbanhang\bin\System.Web.WebPages.dll
-D:\ASP\Webbanhang\Webbanhang\bin\System.Web.WebPages.Razor.dll
-D:\ASP\Webbanhang\Webbanhang\bin\WebGrease.dll
-D:\ASP\Webbanhang\Webbanhang\bin\System.Web.Helpers.xml
-D:\ASP\Webbanhang\Webbanhang\bin\System.Web.Mvc.xml
-D:\ASP\Webbanhang\Webbanhang\bin\System.Web.Optimization.xml
-D:\ASP\Webbanhang\Webbanhang\bin\System.Web.Razor.xml
-D:\ASP\Webbanhang\Webbanhang\bin\System.Web.WebPages.xml
-D:\ASP\Webbanhang\Webbanhang\bin\System.Web.WebPages.Deployment.xml
-D:\ASP\Webbanhang\Webbanhang\bin\System.Web.WebPages.Razor.xml
-D:\ASP\Webbanhang\Webbanhang\bin\Antlr3.Runtime.pdb
-D:\ASP\Webbanhang\Webbanhang\bin\Newtonsoft.Json.xml
-D:\ASP\Webbanhang\Webbanhang\obj\Debug\Webbanhang.csprojResolveAssemblyReference.cache
-D:\ASP\Webbanhang\Webbanhang\obj\Debug\Webbanhang.dll
-D:\ASP\Webbanhang\Webbanhang\obj\Debug\Webbanhang.pdb
-D:\ASPx\Webbanhang\Webbanhang\bin\Webbanhang.dll.config
-D:\ASPx\Webbanhang\Webbanhang\bin\Webbanhang.dll
-D:\ASPx\Webbanhang\Webbanhang\bin\Webbanhang.pdb
-D:\ASPx\Webbanhang\Webbanhang\bin\Antlr3.Runtime.dll
-D:\ASPx\Webbanhang\Webbanhang\bin\Microsoft.Web.Infrastructure.dll
-D:\ASPx\Webbanhang\Webbanhang\bin\Newtonsoft.Json.dll
-D:\ASPx\Webbanhang\Webbanhang\bin\System.Web.Helpers.dll
-D:\ASPx\Webbanhang\Webbanhang\bin\System.Web.Mvc.dll
-D:\ASPx\Webbanhang\Webbanhang\bin\System.Web.Optimization.dll
-D:\ASPx\Webbanhang\Webbanhang\bin\System.Web.Razor.dll
-D:\ASPx\Webbanhang\Webbanhang\bin\System.Web.WebPages.Deployment.dll
-D:\ASPx\Webbanhang\Webbanhang\bin\System.Web.WebPages.dll
-D:\ASPx\Webbanhang\Webbanhang\bin\System.Web.WebPages.Razor.dll
-D:\ASPx\Webbanhang\Webbanhang\bin\WebGrease.dll
-D:\ASPx\Webbanhang\Webbanhang\bin\System.Web.Helpers.xml
-D:\ASPx\Webbanhang\Webbanhang\bin\System.Web.Mvc.xml
-D:\ASPx\Webbanhang\Webbanhang\bin\System.Web.Optimization.xml
-D:\ASPx\Webbanhang\Webbanhang\bin\System.Web.Razor.xml
-D:\ASPx\Webbanhang\Webbanhang\bin\System.Web.WebPages.xml
-D:\ASPx\Webbanhang\Webbanhang\bin\System.Web.WebPages.Deployment.xml
-D:\ASPx\Webbanhang\Webbanhang\bin\System.Web.WebPages.Razor.xml
-D:\ASPx\Webbanhang\Webbanhang\bin\Antlr3.Runtime.pdb
-D:\ASPx\Webbanhang\Webbanhang\bin\Newtonsoft.Json.xml
-D:\ASPx\Webbanhang\Webbanhang\obj\Debug\Webbanhang.csprojResolveAssemblyReference.cache
-D:\ASPx\Webbanhang\Webbanhang\obj\Debug\Webbanhang.dll
-D:\ASPx\Webbanhang\Webbanhang\obj\Debug\Webbanhang.pdb
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Test 1\Webbanhang\Webbanhang\obj\Debug\Webbanhang.csprojResolveAssemblyReference.cache
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Test 1\Webbanhang\Webbanhang\bin\Webbanhang.dll.config
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Test 1\Webbanhang\Webbanhang\bin\Webbanhang.dll
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Test 1\Webbanhang\Webbanhang\bin\Webbanhang.pdb
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Test 1\Webbanhang\Webbanhang\bin\Antlr3.Runtime.dll
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Test 1\Webbanhang\Webbanhang\bin\EntityFramework.dll
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Test 1\Webbanhang\Webbanhang\bin\EntityFramework.SqlServer.dll
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Test 1\Webbanhang\Webbanhang\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Test 1\Webbanhang\Webbanhang\bin\Newtonsoft.Json.dll
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Test 1\Webbanhang\Webbanhang\bin\System.Web.Helpers.dll
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Test 1\Webbanhang\Webbanhang\bin\System.Web.Mvc.dll
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Test 1\Webbanhang\Webbanhang\bin\System.Web.Optimization.dll
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Test 1\Webbanhang\Webbanhang\bin\System.Web.Razor.dll
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Test 1\Webbanhang\Webbanhang\bin\System.Web.WebPages.Deployment.dll
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Test 1\Webbanhang\Webbanhang\bin\System.Web.WebPages.dll
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Test 1\Webbanhang\Webbanhang\bin\System.Web.WebPages.Razor.dll
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Test 1\Webbanhang\Webbanhang\bin\WebGrease.dll
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Test 1\Webbanhang\Webbanhang\bin\EntityFramework.xml
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Test 1\Webbanhang\Webbanhang\bin\EntityFramework.SqlServer.xml
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Test 1\Webbanhang\Webbanhang\bin\System.Web.Helpers.xml
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Test 1\Webbanhang\Webbanhang\bin\System.Web.Mvc.xml
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Test 1\Webbanhang\Webbanhang\bin\System.Web.Optimization.xml
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Test 1\Webbanhang\Webbanhang\bin\System.Web.Razor.xml
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Test 1\Webbanhang\Webbanhang\bin\System.Web.WebPages.xml
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Test 1\Webbanhang\Webbanhang\bin\System.Web.WebPages.Deployment.xml
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Test 1\Webbanhang\Webbanhang\bin\System.Web.WebPages.Razor.xml
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Test 1\Webbanhang\Webbanhang\bin\Antlr3.Runtime.pdb
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Test 1\Webbanhang\Webbanhang\bin\Newtonsoft.Json.xml
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Test 1\Webbanhang\Webbanhang\obj\Debug\Webbanhang.dll
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Test 1\Webbanhang\Webbanhang\obj\Debug\Webbanhang.pdb
+C:\Users\acer\OneDrive\Máy tính\Webbanhang\Webbanhang\bin\Webbanhang.dll.config
+C:\Users\acer\OneDrive\Máy tính\Webbanhang\Webbanhang\bin\Webbanhang.dll
+C:\Users\acer\OneDrive\Máy tính\Webbanhang\Webbanhang\bin\Webbanhang.pdb
+C:\Users\acer\OneDrive\Máy tính\Webbanhang\Webbanhang\bin\Antlr3.Runtime.dll
+C:\Users\acer\OneDrive\Máy tính\Webbanhang\Webbanhang\bin\EntityFramework.dll
+C:\Users\acer\OneDrive\Máy tính\Webbanhang\Webbanhang\bin\EntityFramework.SqlServer.dll
+C:\Users\acer\OneDrive\Máy tính\Webbanhang\Webbanhang\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\acer\OneDrive\Máy tính\Webbanhang\Webbanhang\bin\Newtonsoft.Json.dll
+C:\Users\acer\OneDrive\Máy tính\Webbanhang\Webbanhang\bin\System.Web.Helpers.dll
+C:\Users\acer\OneDrive\Máy tính\Webbanhang\Webbanhang\bin\System.Web.Mvc.dll
+C:\Users\acer\OneDrive\Máy tính\Webbanhang\Webbanhang\bin\System.Web.Optimization.dll
+C:\Users\acer\OneDrive\Máy tính\Webbanhang\Webbanhang\bin\System.Web.Razor.dll
+C:\Users\acer\OneDrive\Máy tính\Webbanhang\Webbanhang\bin\System.Web.WebPages.Deployment.dll
+C:\Users\acer\OneDrive\Máy tính\Webbanhang\Webbanhang\bin\System.Web.WebPages.dll
+C:\Users\acer\OneDrive\Máy tính\Webbanhang\Webbanhang\bin\System.Web.WebPages.Razor.dll
+C:\Users\acer\OneDrive\Máy tính\Webbanhang\Webbanhang\bin\WebGrease.dll
+C:\Users\acer\OneDrive\Máy tính\Webbanhang\Webbanhang\bin\EntityFramework.xml
+C:\Users\acer\OneDrive\Máy tính\Webbanhang\Webbanhang\bin\EntityFramework.SqlServer.xml
+C:\Users\acer\OneDrive\Máy tính\Webbanhang\Webbanhang\bin\System.Web.Helpers.xml
+C:\Users\acer\OneDrive\Máy tính\Webbanhang\Webbanhang\bin\System.Web.Mvc.xml
+C:\Users\acer\OneDrive\Máy tính\Webbanhang\Webbanhang\bin\System.Web.Optimization.xml
+C:\Users\acer\OneDrive\Máy tính\Webbanhang\Webbanhang\bin\System.Web.Razor.xml
+C:\Users\acer\OneDrive\Máy tính\Webbanhang\Webbanhang\bin\System.Web.WebPages.xml
+C:\Users\acer\OneDrive\Máy tính\Webbanhang\Webbanhang\bin\System.Web.WebPages.Deployment.xml
+C:\Users\acer\OneDrive\Máy tính\Webbanhang\Webbanhang\bin\System.Web.WebPages.Razor.xml
+C:\Users\acer\OneDrive\Máy tính\Webbanhang\Webbanhang\bin\Antlr3.Runtime.pdb
+C:\Users\acer\OneDrive\Máy tính\Webbanhang\Webbanhang\bin\Newtonsoft.Json.xml
+C:\Users\acer\OneDrive\Máy tính\Webbanhang\Webbanhang\obj\Debug\Webbanhang.csprojResolveAssemblyReference.cache
+C:\Users\acer\OneDrive\Máy tính\Webbanhang\Webbanhang\obj\Debug\Webbanhang.dll
+C:\Users\acer\OneDrive\Máy tính\Webbanhang\Webbanhang\obj\Debug\Webbanhang.pdb
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Webbanhang\Webbanhang\bin\Webbanhang.dll.config
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Webbanhang\Webbanhang\bin\Webbanhang.dll
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Webbanhang\Webbanhang\bin\Webbanhang.pdb
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Webbanhang\Webbanhang\bin\Antlr3.Runtime.dll
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Webbanhang\Webbanhang\bin\EntityFramework.dll
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Webbanhang\Webbanhang\bin\EntityFramework.SqlServer.dll
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Webbanhang\Webbanhang\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Webbanhang\Webbanhang\bin\Newtonsoft.Json.dll
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Webbanhang\Webbanhang\bin\PagedList.dll
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Webbanhang\Webbanhang\bin\PagedList.Mvc.dll
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Webbanhang\Webbanhang\bin\System.Web.Helpers.dll
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Webbanhang\Webbanhang\bin\System.Web.Mvc.dll
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Webbanhang\Webbanhang\bin\System.Web.Optimization.dll
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Webbanhang\Webbanhang\bin\System.Web.Razor.dll
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Webbanhang\Webbanhang\bin\System.Web.WebPages.Deployment.dll
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Webbanhang\Webbanhang\bin\System.Web.WebPages.dll
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Webbanhang\Webbanhang\bin\System.Web.WebPages.Razor.dll
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Webbanhang\Webbanhang\bin\WebGrease.dll
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Webbanhang\Webbanhang\bin\EntityFramework.xml
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Webbanhang\Webbanhang\bin\EntityFramework.SqlServer.xml
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Webbanhang\Webbanhang\bin\PagedList.xml
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Webbanhang\Webbanhang\bin\PagedList.Mvc.xml
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Webbanhang\Webbanhang\bin\System.Web.Helpers.xml
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Webbanhang\Webbanhang\bin\System.Web.Mvc.xml
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Webbanhang\Webbanhang\bin\System.Web.Optimization.xml
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Webbanhang\Webbanhang\bin\System.Web.Razor.xml
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Webbanhang\Webbanhang\bin\System.Web.WebPages.xml
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Webbanhang\Webbanhang\bin\System.Web.WebPages.Deployment.xml
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Webbanhang\Webbanhang\bin\System.Web.WebPages.Razor.xml
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Webbanhang\Webbanhang\bin\Antlr3.Runtime.pdb
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Webbanhang\Webbanhang\bin\Newtonsoft.Json.xml
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Webbanhang\Webbanhang\obj\Debug\Webbanhang.dll
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Webbanhang\Webbanhang\obj\Debug\Webbanhang.pdb
+C:\Users\acer\OneDrive\Máy tính\vuhuynh\Webbanhang\Webbanhang\obj\Debug\Webbanhang.csprojResolveAssemblyReference.cache
